@@ -29,6 +29,8 @@ class: title-slide, middle, center
 ### Dept. of Experimental and Health Sciences
 ### Universitat Pompeu Fabra
 
+<br>
+
 ## Fundamentals of Computational Biology
 ### BSc on Human Biology
 ### UPF School of Health and Life Sciences
