@@ -342,17 +342,17 @@ to a file, the output printed in the terminal window.
 --
 
 * The shell interprets commands by reading words separated by space characters.
-  Using space characters in filenames becomes problematic in the command line.
+  Using space characters in filenames becomes problematic in the command line.  
   &nbsp;&nbsp;
 --
 
-* **DO NOT** use spaces or any other non-standard
+* .boldface[.red[DO NOT]] use spaces or any other non-standard
   [ASCII](https://en.wikipedia.org/wiki/ASCII) character such as `ñ`, `ç`,
   accents, etc., in filenames.  
   &nbsp;&nbsp;
 --
 
-* **DO NOT** use spaces or any other non-standard
+* .boldface[.red[DO NOT]] use spaces or any other non-standard
   [ASCII](https://en.wikipedia.org/wiki/ASCII) character such as `ñ`, `ç`,
   accents, etc., in filenames.  
   &nbsp;&nbsp;
@@ -364,5 +364,6 @@ to a file, the output printed in the terminal window.
   &nbsp;&nbsp;
 --
 
-* You do not learn Unix and the command line by only reading through these slides. Only
-  doing the practicals will allow you to actually learn how to do stuff.
+* You do not learn Unix and the command line by only reading through these
+  slides. .boldface[You need to do the practicals and the assignments] to
+  actually learn how to do stuff.
