@@ -34,7 +34,7 @@ class: title-slide, middle, center
 ## Fundamentals of Computational Biology
 ### BSc on Human Biology
 ### UPF School of Health and Life Sciences
-### Academic Year 2021-2022
+### Academic Year 2023-2024
 
 ---
 
@@ -42,8 +42,8 @@ class: title-slide, middle, center
 
 .pull-left[
 * An _operating system_ (OS) is a software that enables the use and manipulation
-  of the different physical devices forming a computer.
-
+  of the different physical devices forming a computer.  
+  &nbsp;&nbsp;
 * The Unix OS ([Ritchie and Thompson, 1974](https://doi.org/10.1145/361011.361061);
   [Kernighan and Pike, 1984](https://en.wikipedia.org/wiki/The_Unix_Programming_Environment))
   was born on 1969 as a result of a research project
@@ -67,22 +67,25 @@ Image and caption taken from
 ## The Unix operating system
 
 * The group of engineers that developed Unix already made other attempts to
-  develop an OS in the 60s, such as [Multics](https://en.wikipedia.org/wiki/Multics).
-
+  develop an OS in the 60s, such as
+  [Multics](https://en.wikipedia.org/wiki/Multics).  
+  &nbsp;&nbsp;
 * However, only after they developed the
   [B programming language](https://en.wikipedia.org/wiki/B_%28programming_language%29)
-  they succeeded to develop the first version of Unix, which was written in this language.
-
+  they succeeded to develop the first version of Unix, which was written in this
+  language.  
+  &nbsp;&nbsp;
 * The [B programming language](https://en.wikipedia.org/wiki/B_%28programming_language%29)
-  was the precursor of the widely-used [C programming language](https://en.wikipedia.org/wiki/C_%28programming_language%29)
-  ([Kernighan and Ritchie, 1978)](https://en.wikipedia.org/wiki/The_C_Programming_Language).
-
-* There are many [variants](https://www.levenez.com/unix) of Unix, one of the most
-  popular ones is [Linux](https://en.wikipedia.org/wiki/Linux) but also
+  was the precursor of the widely-used
+  [C programming language](https://en.wikipedia.org/wiki/C_%28programming_language%29)
+  ([Kernighan and Ritchie, 1978)](https://en.wikipedia.org/wiki/The_C_Programming_Language).  
+  &nbsp;&nbsp;
+* There are many [variants](https://www.levenez.com/unix) of Unix, one of the
+  most popular ones is [Linux](https://en.wikipedia.org/wiki/Linux) but also
   [Android](https://en.wikipedia.org/wiki/Android_%28operating_system%29),
   [iOS](https://en.wikipedia.org/wiki/IOS)
-  and [macOS](https://en.wikipedia.org/wiki/MacOS) are based on a Unix OS.
-
+  and [macOS](https://en.wikipedia.org/wiki/MacOS) are based on a Unix OS.  
+  &nbsp;&nbsp;
 * Did they use the Unix OS 50 years ago in the same way we use it now?
 
 ---
@@ -138,44 +141,41 @@ A DEC VT100 computer terminal. Image taken from [Wikipedia](https://en.wikipedia
 
 ## The terminal window
 
-* Nowadays, every OS (Windows, macOS or Linux) starts up with a GUI.
-
+* Nowadays, every OS (Windows, macOS or Linux) starts up with a GUI.  
+  &nbsp;&nbsp;
 * The terminal window is just an application with an icon similar to this one:
-
   ![:scale 5%](img/terminal-app-icon.png)
-
-* In Linux is located next to every other application.
-
-* In macOS is located in `Applications -> Utilities`.
-
+* In Linux is located next to every other application.  
+  &nbsp;&nbsp;
+* In macOS is located in `Applications -> Utilities`.  
+  &nbsp;&nbsp;
 * In Windows you need to install some Unix emulator such as
-  [Git for Windows](https://gitforwindows.org) (using its Git Bash application).
-
+  [Git for Windows](https://gitforwindows.org) (using its Git Bash application).  
+  &nbsp;&nbsp;
 * Other options for Windows in increasing order of complexity are:
-
   * Running a Unix system in the [cloud](https://en.wikipedia.org/wiki/Cloud_computing)
   and access it through the browser. You require a stable internet connection and you
   normally have to pay for it.
   * Running a [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) and installing
   in it a Linux system.
   * [Partitioning the hard drive disk](https://en.wikipedia.org/wiki/Disk_partitioning)
-  and install Windows in one of the partitions and Linux in the other one.
+  and install Windows in one of the partitions,  
+  and Linux in the other one.
 
 ---
 
 ## The terminal window
 
-* At this point, you may ask yourself why do we want to work with a Unix command-line in
-  a terminal window.
-
+* At this point, you may ask yourself why do we want to work with a Unix
+  command-line in a terminal window.  
+  &nbsp;&nbsp;
 * The answer is because the command-line allows you to use computing in a
   modular, efficient and reproducible way:
-
   * Modularity: reusing and chaining computations.
   * Efficiency: automatizing workflows.
   * Reproducibility: recording computing steps.
-
-* In summary, the command-line facilitates the release of your full potential as a computational biologist..
+* In summary, the command-line facilitates the release of your full potential
+  as a computational biologist..
 
 --
 
@@ -187,16 +187,18 @@ A DEC VT100 computer terminal. Image taken from [Wikipedia](https://en.wikipedia
 
 ## The Unix filesystem
 
-* A fundamental component of any OS is the [filesystem](https://en.wikipedia.org/wiki/File_system)
-  that the OS uses to store data.
-
-* The filesystem determines the way in which files are organized and the GUIs in currently available
-  OSs provide a graphical interface to this organisation.
-
-* We want to learn here how to work with the filesystem through the Unix command-line:
-
-  * High-level understanding about how the filesystem stores files in the computer.
-
+* A fundamental component of any OS is the
+  [filesystem](https://en.wikipedia.org/wiki/File_system) that the OS uses to
+  store data.  
+  &nbsp;&nbsp;
+* The filesystem determines the way in which files are organized and the GUIs
+  in currently available OSs provide a graphical interface to this organisation.  
+  &nbsp;&nbsp;
+* We want to learn here how to work with the filesystem through the Unix
+  command-line:
+  * High-level understanding about how the filesystem stores files in the
+    computer.  
+    &nbsp;&nbsp;
   * Learn filesystem commands and the syntax to specify them in the shell.
 
 ---
@@ -204,17 +206,19 @@ A DEC VT100 computer terminal. Image taken from [Wikipedia](https://en.wikipedia
 ## The Unix filesystem
 
 * A graphical representation of the Unix file system is through a
-  [hierarchy](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard), sometimes
-  referred to as a tree.
+  [hierarchy](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard),
+  sometimes referred to as a tree.
 
 ![:scale 90%](img/sfitxers.jpg)
 
-* We have two main types of files in the filesystem: regular files and directories.
-
-* Directories can store regular files and other directories.
-
-* On top of the hierarchy we have the [root directory](https://en.wikipedia.org/wiki/Root_directory),
-  which can be likened to the trunk of a tree, as the starting point where all branches
+* We have two main types of files in the filesystem: regular files and
+  directories.  
+  &nbsp;&nbsp;
+* Directories can store regular files and other directories.  
+  &nbsp;&nbsp;
+* On top of the hierarchy we have the
+  [root directory](https://en.wikipedia.org/wiki/Root_directory), which can be
+  likened to the trunk of a tree, as the starting point where all branches
   originate from.
 
 ---
@@ -279,21 +283,20 @@ and arguments.
 ## Unix file commands
 
 Examples of Unix commands that manipulate files:
-
-  * listing files:
-
-    `$ ls`
-
-  * copying files:
-
-    `$ cp ~/Downloads/data.zip .`
-
-  * removing files:
-
-    `$ rm data.zip`
-
-  * changing CWD:
-
+  * listing files:  
+    &nbsp;&nbsp;
+    `$ ls`  
+    &nbsp;&nbsp;
+  * copying files:  
+    &nbsp;&nbsp;
+    `$ cp ~/Downloads/data.zip .`  
+    &nbsp;&nbsp;
+  * removing files:  
+    &nbsp;&nbsp;
+    `$ rm data.zip`  
+    &nbsp;&nbsp;
+  * changing CWD:  
+    &nbsp;&nbsp;
     `$ cd data`
 
 ---
@@ -301,21 +304,20 @@ Examples of Unix commands that manipulate files:
 ## Unix commands to explore file contents
 
 Examples of Unix commands that explore the contents of [text files](https://en.wikipedia.org/wiki/Text_file):
-
-  * beginning of a text file:
-
-    `$ head filename`
-
-  * end of a text file:
-
-    `$ tail filename`
-
-  * whole text file:
-
-    `$ cat filename`
-
-  * paging text files:
-
+  * beginning of a text file:  
+    &nbsp;&nbsp;
+    `$ head filename`  
+    &nbsp;&nbsp;
+  * end of a text file:  
+    &nbsp;&nbsp;
+    `$ tail filename`  
+    &nbsp;&nbsp;
+  * whole text file:  
+    &nbsp;&nbsp;
+    `$ cat filename`  
+    &nbsp;&nbsp;
+  * paging text files:  
+    &nbsp;&nbsp;
     `$ more filename`
 
 ---
@@ -346,13 +348,13 @@ to a file, the output printed in the terminal window.
   &nbsp;&nbsp;
 --
 
-* .boldface[.red[DO NOT]] use spaces or any other non-standard
+* **.red[DO NOT]** use spaces or any other non-standard
   [ASCII](https://en.wikipedia.org/wiki/ASCII) character such as `ñ`, `ç`,
   accents, etc., in filenames.  
   &nbsp;&nbsp;
 --
 
-* .boldface[.red[DO NOT]] use spaces or any other non-standard
+* **.red[DO NOT]** use spaces or any other non-standard
   [ASCII](https://en.wikipedia.org/wiki/ASCII) character such as `ñ`, `ç`,
   accents, etc., in filenames.  
   &nbsp;&nbsp;
@@ -365,5 +367,5 @@ to a file, the output printed in the terminal window.
 --
 
 * You do not learn Unix and the command line by only reading through these
-  slides. .boldface[You need to do the practicals and the assignments] to
+  slides. **You need to do the practicals and the assignments** to
   actually learn how to do stuff.
