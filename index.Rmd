@@ -26,7 +26,7 @@ class: title-slide, middle, center
 
 ## Robert Castelo
 [robert.castelo@upf.edu](mailto:robert.castelo@upf.edu)
-### Dept. of Experimental and Health Sciences
+### Dept. of Medicine and Life Sciences
 ### Universitat Pompeu Fabra
 
 <br>
@@ -34,7 +34,7 @@ class: title-slide, middle, center
 ## Fundamentals of Computational Biology
 ### BSc on Human Biology
 ### UPF School of Health and Life Sciences
-### Academic Year 2023-2024
+### Academic Year 2024-2025
 
 ---
 
@@ -100,6 +100,31 @@ background-size: cover
 <div class="footer">
   <p style="color:white">Big computers, big hair: the women of Bell Labs in the 1960s - in pictures.<br>
   <a href="https://www.theguardian.com/technology/gallery/2016/feb/13/future-women-the-bell-lab-computer-operators-of-the-1960s-in-pictures-women-in-computing" target="_blank">The Guardian, Sat 13 Feb 2016</a>
+  </p>
+</div>
+
+---
+
+## The Unix operating system
+
+.pull-left[
+![](img/TheComputerGirls_Cosmopolitan1967.jpg)
+]
+.pull-right[
+"Twenty years ago, a girl could be a secretary, a schoo teacher ... maybe
+a librarian, a social worker or a nurse. If she was really ambitious, she could
+go into the professions and compete with men ... usually working harder and
+longer to earn less pay for the same job.
+
+Now have come the big, dazzling computers -and **a whole new kind of work for
+women: programming.**"
+
+See [The Computer Girls: 1967 Cosmo article highlights women in technology](https://www.siliconrepublic.com/people/women-in-technology-the-computer-girls-cosmopolitan)
+]
+
+<div class="footer">
+  <p>The Computer Girls.
+  <a href="https://archive.org/details/the-computer-girls-cosmopolitan-magazine-april-1967/The%20Computer%20Girls%20-%20Cosmopolitan%20magazine%20%28April%201967%29%20%5Bocr%5D/" target="_blank">Cosmopolitan magazine, April 1967.</a>
   </p>
 </div>
 
