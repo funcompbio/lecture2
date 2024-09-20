@@ -320,6 +320,10 @@ Examples of Unix commands that manipulate files:
     &nbsp;&nbsp;
     `$ rm data.zip`  
     &nbsp;&nbsp;
+  * showing CWD:  
+    &nbsp;&nbsp;
+    `$ pwd`  
+    &nbsp;&nbsp;
   * changing CWD:  
     &nbsp;&nbsp;
     `$ cd data`
