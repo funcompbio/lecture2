@@ -33,7 +33,7 @@ class: title-slide, middle, center
 
 ## Fundamentals of Computational Biology
 ### BSc on Human Biology
-### UPF School of Health and Life Sciences
+### UPF School of Medicine and Life Sciences
 ### Academic Year 2024-2025
 
 ---
