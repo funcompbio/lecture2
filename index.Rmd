@@ -109,6 +109,27 @@ background-size: cover
 ## The Unix operating system
 
 .pull-left[
+* Women contributed software and calculations for the
+[Apollo spaceflight missions](https://en.wikipedia.org/wiki/Apollo_program) that
+  allowed NASA to land the first humans on the Moon in 1969.  
+  &nbsp;&nbsp;
+![:scale 75%](img/MargaretHamilton.jpg)
+]
+.pull-right[
+![:scale 60%](img/JoAnnHMorgan.jpg)
+![:scale 60%](img/MargaretHamilton2.jpg)
+![:scale 60%](img/MaryJackson.jpg)
+]
+
+.footer[JoAnn Morgan (top-right) chief computer services at NASA. Margaret
+  Hamilton (bottom & right) lead computer programmer<br>for moon landings,
+  Mary Jackson (bottom-right) orbital calculations; see the film
+  [*Hidden Figures*, 2016](https://en.wikipedia.org/wiki/Hidden_Figures).]
+---
+
+## The Unix operating system
+
+.pull-left[
 ![](img/TheComputerGirls_Cosmopolitan1967.jpg)
 ]
 .pull-right[
